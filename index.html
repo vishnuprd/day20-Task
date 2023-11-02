@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="box">
+            <h2>English Dictionary</h2>
+            <div class="search">
+                <div class="row">
+                    <div class="col-1">
+                        <input type="text" placeholder="search a word" required id="input">
+                        <button id="btn" onclick ="search()"><span class="material-symbols-outlined">
+                            search
+                            </span></button>
+                    </div>
+                </div>
+            </div>
+
+
+          <div class="itext">
+            <p>Type a word and press search button to get meaning, example, Synonyms and pronunciation at that typed word</p>
+          </div>  
+        <div class="text">
+            <div class="row">
+                    <div class="col-12">
+                        <p id="para">happy</p><span class="material-symbols-outlined" onclick="aa()">
+                            volume_up
+                            </span>
+                        <span id="span">adjective</span>
+                    </div>
+            </div>
+
+            <div class="row">
+               <div class="col-12">
+                <div class="meaning">
+                    <p id="para1">meaning</p>
+                    <span id="span1">all meaning</span>
+                </div>
+               </div>
+            </div>
+
+            <div class="row">
+                <div class="Example">
+                    <p id="para2">Example</p>
+                    <span id="span2">all example</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="Synonyms">
+                    <p id="para3">Synonyms</p>
+                    <span id="span3">glad </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
